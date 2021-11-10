@@ -236,7 +236,7 @@ void AddControls(HWND hWnd) { //-------------------------- GUI Controls --------
 	CreateWindowW(L"static", L"Description:", WS_VISIBLE | WS_CHILD, 1200, 400, 100, 50, hWnd, NULL, NULL, NULL);
 	CreateWindowW(L"static", L"Object Name:", WS_VISIBLE | WS_CHILD, 1200, 450, 100, 50, hWnd, NULL, NULL, NULL);
 	CreateWindowW(L"static", L"Object Description:", WS_VISIBLE | WS_CHILD, 1200, 500, 100, 50, hWnd, NULL, NULL, NULL);
-	lblSerNum = CreateWindowW(L"static", L"", WS_VISIBLE | WS_CHILD, 1200, 450, 100, 50, hWnd, NULL, NULL, NULL);
+	lblSerNum = CreateWindowW(L"static", L"", WS_VISIBLE | WS_CHILD, 1200, 550, 100, 50, hWnd, NULL, NULL, NULL);
 	txtObjectName = CreateWindowW(L"edit", L"", WS_VISIBLE | WS_CHILD | WS_BORDER | ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL, 1300, 450, 200, 20, hWnd, NULL, NULL, NULL);
 	txtObjectDesc = CreateWindowW(L"edit", L"", WS_VISIBLE | WS_CHILD | WS_BORDER | ES_MULTILINE | ES_AUTOVSCROLL, 1300, 500, 300, 150, hWnd, NULL, NULL, NULL);
 
